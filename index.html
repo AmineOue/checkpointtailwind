@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-red-400 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">Student</h1>
+            <nav class="space-x-4">
+                <a href="#" class="hover:text-gray-300">Home</a>
+                <a href="#" class="hover:text-gray-300">Projects</a>
+                <a href="#" class="hover:text-gray-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center"
+    style="background-image: url('https://png.pngtree.com/background/20210716/original/pngtree-white-simple-asymmetry-abstract-cv-picture-image_1346365.jpg');">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Hello, I'm Student</h2>
+            <p class="text-lg">I'm a passionate developer ready to create amazing things.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container mx-auto min-w-full py-12 bg-red-100 ">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <!-- Replace with your skills -->
+            <div class="bg-red-300 p-4">HTML</div>
+            <div class="bg-red-400 p-4">CSS</div>
+            <div class="bg-red-500 p-4">JS</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="grid grid-cols-3 gap-8">
+                <!-- Replace with your projects -->
+                <div class="bg-white p-6 shadow-md">
+                    <img src="https://people.com/thmb/82dbHw0y1AZJ9WcsgJ0vaPcf7uU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/peo-december-beauty-picks-tout-879769bbc4344efe85da02a2ad3a8fce.jpg" 
+                    alt="Project 1" class="w-full mb-4 h-40">
+                    <h3 class="text-lg font-bold mb-2">Project 1</h3>
+                    <p>Website For beauty </p>
+                </div>
+                <div class="bg-white p-6 shadow-md">
+                  <img src="https://kinsta.com/fr/wp-content/uploads/sites/4/2020/06/webp.jpg" alt="Project 1" class="w-full mb-4 h-40">
+                  <h3 class="text-lg font-bold mb-2">Project 2</h3>
+                  <p>Portfulio professionelle </p>
+              </div>
+              <div class="bg-white p-6 shadow-md">
+                <img src="https://ewm.swiss/application/files/8216/1597/9679/E-commerce_web_design_EWM_SA_Digital_Agency_Geneva.jpg" alt="Project 1" class="w-full mb-4 h-40">
+                <h3 class="text-lg font-bold mb-2">Project 3</h3>
+                <p>E-comerce Website</p>
+            </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="container mx-auto py-12 w-9/12">
+        <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+        <form action="#" method="POST" class="grid grid-cols-2 gap-4">
+            <input type="text" name="name" placeholder="Your Name" class="p-2 border border-red-300">
+            <input type="email" name="email" placeholder="Your Email" class="p-2 border border-red-300">
+            <textarea name="message" rows="4" placeholder="Your Message" class="p-2 border border-red-300 col-span-2"></textarea>
+            <button type="submit" class="bg-red-500 text-white font-bold py-2 px-4 rounded col-span-2">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-red-400 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div>
+             
+                <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fa-brands fa-linkedin" style="color: #B197FC;"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fa-brands fa-github" style="color: #B197FC;"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-discord" style="color: #B197FC;"></i></a>
+            </div>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Include Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/8b88974391.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
